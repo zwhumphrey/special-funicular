@@ -1,0 +1,26 @@
+{
+  "name": "special-funicular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwhumphrey/special-funicular.git"
+  },
+  "author": "Zwhumphrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwhumphrey/special-funicular/issues"
+  },
+  "homepage": "https://github.com/zwhumphrey/special-funicular#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.0.3"
+  }
+}
