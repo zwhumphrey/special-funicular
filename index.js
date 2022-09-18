@@ -1,11 +1,13 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
+const validator = require('email-validator');
+const html = require('./src/html.template');
+
+// lib modules
 const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
-const html = require('./src/html.template');
-const validator = require('email-validator');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 const appendFileAsync = util.promisify(fs.appendFile);
